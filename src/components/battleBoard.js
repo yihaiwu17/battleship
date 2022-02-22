@@ -30,7 +30,10 @@ const BattleBoard = ({ ships }) => {
           </ShipImages>
           <Dots key={key} className="Dots">
             {[...Array(value.size - value.remaining)].map((index) => (
-              <DotImages key={index} className="HitDots">
+              <DotImages
+                key={Math.random().toString(36).substr(2, 9)}
+                className="HitDots"
+              >
                 <ImageBlock src={assets.hitSmall} alt="hit" />
               </DotImages>
             ))}

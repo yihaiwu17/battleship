@@ -6,7 +6,6 @@ import {
   GameBoardWrapper,
   Board,
   Tile,
-  HitMark,
 } from "../themes/styledComponents";
 import { assets } from "../util/constants";
 
@@ -65,7 +64,7 @@ const Game = ({ board, setBoard, ships, setShips }) => {
                   <Image src={assets.miss} width="100%" height="100%" />
                 )
               ) : (
-                <HitMark>&nbsp;</HitMark>
+                <div />
               )}
             </Tile>
           ))

@@ -151,18 +151,6 @@ export const Tile = styled.div`
   }
 `;
 
-export const HitMark = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  font-size: 200%;
-  font-weight: bold;
-  color: red;
-`;
-
 //-----------ScoreTable CSS--------------------//
 export const ScoreWrapper = styled(FlexBlock)`
   width: 100%;
