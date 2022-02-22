@@ -74,8 +74,4 @@ const Game = ({ board, setBoard, ships, setShips }) => {
   );
 };
 
-Game.propTypes = {};
-
-Game.defaultProps = {};
-
 export default Game;
