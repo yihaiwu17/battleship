@@ -8,8 +8,9 @@ const Theme = {
       primary: "#222",
       secondary: "#444",
     },
+    orange: "#FFA500",
     red: "#ff8585",
-    green: "#85ffb3",
+    jade: "#00A36C",
   },
   padding: {
     sm: "1rem",
@@ -25,6 +26,16 @@ const Theme = {
     sm: "5px",
     md: "10px",
     lg: "20px",
+  },
+  fontSize: {
+    sm: "30px",
+    md: "50px",
+    lg: "70px",
+  },
+  mobileFontSize: {
+    sm: "15px",
+    md: "20px",
+    lg: "35px",
   },
 };
 

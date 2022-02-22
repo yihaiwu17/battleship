@@ -22,8 +22,6 @@ const GlobalStyle = styled.createGlobalStyle`
     font-size: 1.6rem;
     background-color: ${({ theme }) => theme.colors.light.primary};
     color: ${({ theme }) => theme.colors.dark.primary};
-    /* Footer support */
-    margin-bottom: 5.2rem;
   }
 
   h1,
